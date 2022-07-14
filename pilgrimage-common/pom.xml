@@ -9,7 +9,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>prilgrimage-common</artifactId>
+    <artifactId>pilgrimage-common</artifactId>
 
 
 </project>

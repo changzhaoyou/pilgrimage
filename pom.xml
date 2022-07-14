@@ -74,19 +74,19 @@
 
             <dependency>
                 <groupId>com.pilgrimage</groupId>
-                <artifactId>prilgrimage-common</artifactId>
+                <artifactId>pilgrimage-common</artifactId>
                 <version>${pilgrimage.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.pilgrimage</groupId>
-                <artifactId>prilgrimage-core</artifactId>
+                <artifactId>pilgrimage-core</artifactId>
                 <version>${pilgrimage.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.pilgrimage</groupId>
-                <artifactId>prilgrimage-web</artifactId>
+                <artifactId>pilgrimage-web</artifactId>
                 <version>${pilgrimage.version}</version>
             </dependency>
         </dependencies>

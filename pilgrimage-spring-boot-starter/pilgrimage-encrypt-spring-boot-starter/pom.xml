@@ -9,7 +9,7 @@
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>encrypt-spring-boot-starter</artifactId>
+    <artifactId>pilgrimage-encrypt-spring-boot-starter</artifactId>
 
     <dependencies>
         <dependency>
