@@ -37,6 +37,8 @@
         <junit-version>4.11</junit-version>
         <!--spring-boot版本-->
         <spring-boot.version>2.2.5.RELEASE</spring-boot.version>
+        <!--项目版本-->
+        <pilgrimage.version>1.0-SNAPSHOT</pilgrimage.version>
     </properties>
 
     <dependencies>
@@ -50,7 +52,6 @@
 
     <dependencyManagement>
         <dependencies>
-
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
@@ -69,6 +70,24 @@
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>
                 <version>${junit-version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.pilgrimage</groupId>
+                <artifactId>prilgrimage-common</artifactId>
+                <version>${pilgrimage.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.pilgrimage</groupId>
+                <artifactId>prilgrimage-core</artifactId>
+                <version>${pilgrimage.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.pilgrimage</groupId>
+                <artifactId>prilgrimage-web</artifactId>
+                <version>${pilgrimage.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
